@@ -1,0 +1,49 @@
+:root {
+  /* background image */
+  --bg-desktop-dark: url(../src/Assets/images/bg-desktop-dark.jpg);
+  --bg-desktop-light: url(../src/Assets/images/bg-desktop-light.jpg);
+  --bg-mobile-dark: url(../src/Assets/images/bg-mobile-dark.jpg);
+  --bg-mobile-light: url(../src/Assets/images/bg-mobile-light.jpg);
+  /* Primary */
+  --Bright-Blue: hsl(220, 98%, 61%);
+  --Check-Background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  /* Light Theme */
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+  --Light-Grayish-Blue: hsl(233, 11%, 84%);
+  --Dark-Grayish-Blue: hsl(236, 9%, 61%);
+  --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+  /* Dark Theme */
+  --Very-Dark-Blue: hsl(235, 21%, 11%);
+  --Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+  --Light-Grayish-Blue: hsl(234, 39%, 85%);
+  --Light-Grayish-Blue-Hover: hsl(236, 33%, 92%);
+  --Dark-Grayish-Blue: hsl(234, 11%, 52%);
+  --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+  --Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
+  /* Font */
+  --Font-Size: 18px;
+  --Font-Family: "Josefin Sans", sans-serif;
+  --Font-Regular: 400;
+  --Font-Bold: 700;
+  --Small-Font-Size: 0.9rem;
+  --Big-Font-Size: 1.1rem;
+  /* Shadow */
+  --shadow-color: 234deg 52% 37%;
+  --shadow-elevation-low: 0.5px 0.5px 0.8px hsl(var(--shadow-color) / 0.31),
+    0.9px 0.9px 1.5px -1.1px hsl(var(--shadow-color) / 0.34),
+    2.1px 2.2px 3.5px -2.2px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-medium: 0.5px 0.5px 0.8px hsl(var(--shadow-color) / 0.26),
+    1.4px 1.5px 2.4px -0.6px hsl(var(--shadow-color) / 0.27),
+    2.8px 2.9px 4.7px -1.1px hsl(var(--shadow-color) / 0.29),
+    5.5px 5.8px 9.3px -1.7px hsl(var(--shadow-color) / 0.3),
+    10.4px 11px 17.6px -2.2px hsl(var(--shadow-color) / 0.31);
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
